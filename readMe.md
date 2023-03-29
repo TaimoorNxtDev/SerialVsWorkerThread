@@ -32,7 +32,7 @@ Usage
 
 
 Results
-The program will output the time taken for string hashing using serial execution and parallel execution with 2 worker threads. If you run the program with the `````npm run main```, it will also output the time taken for both serial and parallel executions to complete.
+The program will output the time taken for string hashing using serial execution and parallel execution with 2 worker threads. If you run the program with the ```npm run main```, it will also output the time taken for both serial and parallel executions to complete.
 
 You can use this information to compare the performance of the two methods.
 
