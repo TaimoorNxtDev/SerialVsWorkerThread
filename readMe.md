@@ -1,6 +1,6 @@
 # String Hashing - Serial vs Parallel Execution
 This repository contains a program that demonstrates the difference between serial and parallel execution in string hashing using worker threads in Node.js. The program also includes an option to run both serial and parallel executions in parallel using child processes.
-By default, the program will hash 10000000 strings using serial execution.
+By default, the program will hash 10000000 strings using crypto module.
 
 Requirements
 To run the program, you will need:
@@ -11,7 +11,7 @@ Installation
 
 ## Clone the repository:
 Copy code
-```git clone https://github.com/<your-username>/string-hashing.git```
+```git clone https://github.com/TaimoorNxtDev/SerialVsWorkerThread.git```
 
 
 
@@ -32,7 +32,7 @@ Usage
 
 
 Results
-The program will output the time taken for string hashing using serial execution and parallel execution with 2 worker threads. If you run the program with the `````npm run main`, it will also output the time taken for both serial and parallel executions to complete.
+The program will output the time taken for string hashing using serial execution and parallel execution with 2 worker threads. If you run the program with the `````npm run main```, it will also output the time taken for both serial and parallel executions to complete.
 
 You can use this information to compare the performance of the two methods.
 
