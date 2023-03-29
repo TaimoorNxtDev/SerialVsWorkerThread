@@ -26,7 +26,7 @@ Usage
 
 
 
-## To compare the performance of serial and parallel execution, you can run the program multiple times with different values of 
+## To compare the performance of serial and parallel execution
 ### Copy code
 ```npm run main```
 
