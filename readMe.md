@@ -42,4 +42,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 
+### Note
+Even if your CPU has more than one core, it won't necessarily be beneficial for the SHA256 calculation. This is because thealgorithm itself cannot be parallelized, as each processing round depends on the output of the previous round.
 
+However, having multiple cores can still be beneficial for other parts of the program that do not depend on the SHA256 calculation, such as generating the input data or storing the output data. By using multiple threads or processes to handle these tasks, the overall performance of the program can be improved.
